@@ -16,3 +16,4 @@ def play(player_1_move, player_2_move):
 @app.route('/rules')
 def rules():
     return render_template('rules.html')
+
