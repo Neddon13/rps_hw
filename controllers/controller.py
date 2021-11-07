@@ -12,3 +12,7 @@ def play(player_1_move, player_2_move):
     winner = game.play(player_1, player_2)
 
     return render_template("index.html", player_1=player_1, player_2=player_2, winner=winner)
+
+@app.route('/rules')
+def rules():
+    return render_template('rules.html')
