@@ -8,6 +8,13 @@ header > h1{
 
 body{
     text-align: center;
+    list-style: none;
 }
+
+header > nav > ul > li{
+    list-style: none;
+}
+
+
 
 
